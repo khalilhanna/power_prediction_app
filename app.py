@@ -41,7 +41,7 @@ def predict_power():
     df_prediction.at[0, 'shift_5'] = day_5
     df_prediction.at[0, 'shift_6'] = day_6
     df_prediction.at[0, 'shift_7'] = day_7
-    #print(df_prediction)
+
 
     # load the model and predict
     model = joblib.load('model/model.joblib')
